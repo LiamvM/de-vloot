@@ -1,0 +1,52 @@
+ul {
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	right: 0%;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+header {
+	text-align: center;
+}
+
+header img {
+	position: relative;
+	top: 0px;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.headertext {
+	position: absolute;
+	top: 0%;
+	right: 16%;
+	width: 100%;
+}
+
+.headertext2 {
+	position: absolute;
+	top: 4%;
+	right: 16%;
+	width: 100%;
+}
+
+li a.active {
+	color: #8AACAD;
+}
+
+li a:hover:not(.active) {
+    color: #8AACAD;
